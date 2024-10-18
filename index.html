@@ -97,7 +97,7 @@
       padding: 25px;
       box-sizing: border-box;
     }
-    #ingredients #instructions #nutrition {
+    #ingredients, #instructions, #nutrition {
       padding 20px;
       box-sizing: border-box;
     }
@@ -137,11 +137,11 @@
         height: 100%;
         margin-bottom: 10px;
         border-radius: 0;
-        margin: 0;
+        
       }
       main {
         margin-top: 0;
-        box-sizing: border-box;
+        box-sizing:content-box;
         width: 100vw;
         background-color: white;
         display: flex;
@@ -150,6 +150,13 @@
         justify-content: center;
         padding: 0;
         row-gap: 10px;
+      }
+      #recipe-title, #recipe-description, #preparation-time, #ingredients, #instructions, #nutrition, .separator {
+        margin-right: 30px;
+        margin-left: 30px;
+      }
+      #recipe-title {
+      font-size: 35px;
       }
     }
   </style>
