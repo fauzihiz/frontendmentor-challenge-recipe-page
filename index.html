@@ -123,6 +123,35 @@
       border: 1px thin #81817F; /* Adjust color and thickness as desired */
       margin: 20px 0; /* Add top/bottom margin for spacing */
     }
+    @media (max-width:600px) {
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        width: 100vw;
+        background-color: #F3E5D8;
+      }
+      img {
+        width: 100vw;
+        height: 100%;
+        margin-bottom: 10px;
+        border-radius: 0;
+        margin: 0;
+      }
+      main {
+        margin-top: 0;
+        box-sizing: border-box;
+        width: 100vw;
+        background-color: white;
+        display: flex;
+        border-radius: 0;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        row-gap: 10px;
+      }
+    }
   </style>
 </head>
 <body>
